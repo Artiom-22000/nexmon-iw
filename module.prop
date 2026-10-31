@@ -1,0 +1,6 @@
+id=nexmon-iw
+name=nexmon-iw (bcm4375b1 kernel-native monitor)
+version=v1.6
+versionCode=16
+author=artiom
+description=Kernel-native nexmon monitor for bcm4375b1 (needs the Floppy nexmon kernel). Ships: patched nexmon wifi firmware (bind over /vendor/firmware), BT firmware (brcm/BCM.hcd) for bt-on, the real nexutil in /system/bin (CAP_NET_ADMIN via nexcap) and in the Stryker VM, and bt-on / bt-off commands that attach the BT controller to the kernel stack for NetHunter. No wrappers: the kernel reports monitor state natively. Reboot to activate.
